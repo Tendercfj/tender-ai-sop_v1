@@ -1,0 +1,7 @@
+interface:
+  display_name: "项目经验提炼"
+  short_description: "提炼项目亮点、难点与面试素材"
+  default_prompt: "Use $project-insights to extract project highlights, challenges, and interview storylines from docs/project-architecture/."
+
+policy:
+  allow_implicit_invocation: true

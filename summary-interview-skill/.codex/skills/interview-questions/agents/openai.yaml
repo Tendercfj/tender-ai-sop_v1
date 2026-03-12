@@ -1,0 +1,7 @@
+interface:
+  display_name: "项目面试题生成"
+  short_description: "基于项目文档生成面试题与追问"
+  default_prompt: "Use $interview-questions to generate frontend interview questions and follow-up prompts from the project docs."
+
+policy:
+  allow_implicit_invocation: true

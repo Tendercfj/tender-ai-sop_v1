@@ -1,0 +1,7 @@
+interface:
+  display_name: "项目总结面试流"
+  short_description: "一站式生成项目分析到面试题"
+  default_prompt: "Use $summary-interview to analyze the current frontend project, extract insights, and generate interview prep docs."
+
+policy:
+  allow_implicit_invocation: true

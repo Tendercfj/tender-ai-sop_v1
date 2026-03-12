@@ -1,0 +1,7 @@
+interface:
+  display_name: "项目架构初始化"
+  short_description: "扫描前端项目并沉淀架构文档"
+  default_prompt: "Use $init to scan the current frontend project and write the architecture analysis into docs/project-architecture/."
+
+policy:
+  allow_implicit_invocation: true

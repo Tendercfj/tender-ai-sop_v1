@@ -2,6 +2,8 @@
 
 `docs/` 用于统一存放 `summary-interview-skill` 的全部产出文档，按照“项目架构分析 -> 项目经验提炼 -> 面试题生成”的顺序组织。
 
+对应的最外层调用入口见 `../skill.md`，整体说明见 `../README.md`。
+
 ## 目录结构
 
 - `project-architecture/`：第一阶段产出，聚焦技术栈、目录结构和工程化配置。

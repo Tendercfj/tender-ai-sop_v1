@@ -2,6 +2,12 @@
 
 `summary-interview-skill` 用于围绕现有前端项目生成一套完整的“项目分析 -> 项目经验提炼 -> 面试题准备”文档。
 
+## 外层入口
+
+最外层统一入口文件是 [skill.md](/Users/tender/Desktop/Tender/tender-ai-sop_v1/summary-interview-skill/skill.md)。
+
+如果希望直接使用整套 skill，优先从这个入口文件开始，默认走 `summary-interview` 总入口，再按需拆分到单阶段 skill。
+
 ## 能力说明
 
 该技能集包含 4 个 skill：
@@ -20,6 +26,7 @@ summary-interview-skill/
 │   ├── init/
 │   ├── project-insights/
 │   └── interview-questions/
+├── skill.md
 ├── docs/
 │   ├── README.md
 │   ├── project-architecture/
@@ -31,6 +38,7 @@ summary-interview-skill/
 结构说明：
 
 - `.codex/skills/`：存放 4 个 skill 的定义文件和 UI 元数据。
+- `skill.md`：最外层统一入口，说明如何调度整套 skill。
 - `docs/`：存放所有阶段的产出文档，并按流程拆分子目录。
 - 根目录 `README.md`：提供整体使用说明。
 

@@ -49,6 +49,8 @@
 请使用 interview-questions skill，基于已有项目文档生成相关面试题示例和追问问题。
 ```
 
+如果你希望从 `summary-interview-skill` 目录最外层进入，可以直接查看入口文件 [summary-interview-skill/skill.md](/Users/tender/Desktop/Tender/tender-ai-sop_v1/summary-interview-skill/skill.md)。
+
 ## 输出位置
 
 所有文档默认生成在 [summary-interview-skill/docs](/Users/tender/Desktop/Tender/tender-ai-sop_v1/summary-interview-skill/docs) 下：

@@ -21,7 +21,7 @@
 
 ```text
 summary-interview-skill/
-├── .codex/skills/
+├── skills/
 │   ├── summary-interview/
 │   ├── init/
 │   ├── project-insights/
@@ -37,7 +37,7 @@ summary-interview-skill/
 
 结构说明：
 
-- `.codex/skills/`：存放 4 个 skill 的定义文件和 UI 元数据。
+- `skills/`：存放 4 个 skill 的定义文件和 UI 元数据。
 - `skill.md`：最外层统一入口，说明如何调度整套 skill。
 - `docs/`：存放所有阶段的产出文档，并按流程拆分子目录。
 - 根目录 `README.md`：提供整体使用说明。

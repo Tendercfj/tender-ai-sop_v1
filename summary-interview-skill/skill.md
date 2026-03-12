@@ -44,4 +44,4 @@
 
 - 详细使用说明见 `README.md`。
 - 文档索引见 `docs/README.md`。
-- skill 定义位于 `.codex/skills/`。
+- skill 定义位于 `skills/`。

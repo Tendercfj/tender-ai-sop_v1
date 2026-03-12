@@ -1,0 +1,7 @@
+interface:
+  display_name: 项目总结与面试准备
+  short_description: 分析前端项目并产出总结与面试资料
+  default_prompt: 'Use $summary-interview-skill to analyze the current frontend project and generate architecture notes, project insights, and interview prep docs in docs/.'
+
+policy:
+  allow_implicit_invocation: true

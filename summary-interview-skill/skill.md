@@ -1,3 +1,8 @@
+---
+name: summary-interview-skill
+description: summary-interview-skill 是一个专注于前端项目总结和面试准备的技能集合，包含项目架构分析、项目亮点难点提炼和面试题生成等功能，帮助前端开发者系统化地总结项目经验并高效准备面试。
+---
+
 # summary-interview-skill 入口
 
 这个文件是 `summary-interview-skill` 在最外层的统一入口，用于说明如何使用整套 skill 完成前端项目总结与面试准备。

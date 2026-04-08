@@ -1,11 +1,11 @@
 ---
 name: summary-interview
-description: 当用户希望一站式完成前端项目分析、项目经验提炼和面试题准备时，串联 init、project-insights、interview-questions 三个阶段，并将结果统一沉淀到 docs 目录下。
+description: 当用户希望一站式完成前端项目分析、项目经验提炼和面试题与参考回答准备时，串联 init、project-insights、interview-questions 三个阶段，并将结果统一沉淀到 docs 目录下。
 ---
 
 # 项目总结与面试准备总入口
 
-`summary-interview` 是 `summary-interview-skill` 的总入口 skill，负责将项目分析、经验提炼和面试题生成串成一条完整流程。
+`summary-interview` 是 `summary-interview-skill` 的总入口 skill，负责将项目分析、经验提炼和面试题与参考回答生成串成一条完整流程。
 
 ## 触发方式
 
@@ -13,18 +13,18 @@ description: 当用户希望一站式完成前端项目分析、项目经验提�
 
 - 用户希望直接完成整套“项目总结 + 面试准备”流程。
 - 用户不想分阶段调用，希望一次性产出完整文档。
-- 用户要求围绕某个前端项目输出分析、亮点难点和面试题。
+- 用户要求围绕某个前端项目输出分析、亮点难点、面试题和参考回答。
 
 示例提示词：
 
 - “请使用 summary-interview，完整分析当前项目并生成面试准备文档。”
-- “请围绕这个前端项目输出架构分析、项目亮点和面试题。”
+- “请围绕这个前端项目输出架构分析、项目亮点、面试题和参考回答。”
 
 ## 适用场景
 
 - 接手一个陌生前端项目，希望快速形成结构化认知。
 - 希望把项目经验沉淀成可复用的亮点、难点和复盘材料。
-- 希望基于真实项目文档生成更贴近实际的前端面试题示例。
+- 希望基于真实项目文档生成更贴近实际的前端面试题与参考回答。
 
 ## 执行顺序
 
@@ -32,7 +32,7 @@ description: 当用户希望一站式完成前端项目分析、项目经验提�
 
 1. 先读取并执行 `../init/skill.md`，扫描现有前端项目架构，并将结果写入 `docs/project-architecture/`。
 2. 再读取并执行 `../project-insights/skill.md`，基于架构文档提炼项目经验、亮点、难点和面试表达素材，并写入 `docs/project-insights/`。
-3. 最后读取并执行 `../interview-questions/skill.md`，基于前两阶段文档生成相关面试题示例、追问方向和回答提示，并写入 `docs/interview-questions/`。
+3. 最后读取并执行 `../interview-questions/skill.md`，基于前两阶段文档生成相关面试题、追问方向和参考回答，并写入 `docs/interview-questions/`。
 
 ## 输出目录
 
@@ -40,7 +40,7 @@ description: 当用户希望一站式完成前端项目分析、项目经验提�
 
 - `docs/project-architecture/`：项目架构扫描与技术栈分析。
 - `docs/project-insights/`：项目经验、亮点、难点和面试表达素材。
-- `docs/interview-questions/`：项目相关面试题与追问题。
+- `docs/interview-questions/`：项目相关面试题、追问题与参考回答。
 
 ## 执行要求
 
@@ -52,6 +52,6 @@ description: 当用户希望一站式完成前端项目分析、项目经验提�
 
 ## 质量标准
 
-- 整体结果应能支持“理解项目 -> 提炼经验 -> 准备面试”的连续流程。
+- 整体结果应能支持“理解项目 -> 提炼经验 -> 准备面试问答”的连续流程。
 - 各阶段文档之间术语、结论和表述保持一致。
 - 所有项目事实尽量可追溯到代码、配置或前置文档依据。

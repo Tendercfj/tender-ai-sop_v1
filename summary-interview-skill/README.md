@@ -1,6 +1,6 @@
 # summary-interview-skill
 
-`summary-interview-skill` 用于围绕现有前端项目生成一套完整的“项目分析 -> 项目经验提炼 -> 面试题准备”文档。
+`summary-interview-skill` 用于围绕现有前端项目生成一套完整的“项目分析 -> 项目经验提炼 -> 面试题与参考回答准备”文档。
 
 ## 外层入口
 
@@ -15,7 +15,7 @@
 - `summary-interview`：总入口，串联完整流程。
 - `init`：扫描前端项目架构、技术栈、目录职责和工程化配置。
 - `project-insights`：基于架构文档提炼项目经验、亮点、难点与面试表达素材。
-- `interview-questions`：基于前两阶段文档生成项目相关面试题与追问题。
+- `interview-questions`：基于前两阶段文档生成项目相关面试题、追问题与参考回答。
 
 ## 项目结构
 
@@ -49,7 +49,7 @@ summary-interview-skill/
 优先直接触发 `summary-interview`，让流程按顺序执行：
 
 ```text
-请使用 summary-interview skill，扫描当前前端项目，并在 docs 下沉淀项目架构、项目亮点难点和相关面试题。
+请使用 summary-interview skill，扫描当前前端项目，并在 docs 下沉淀项目架构、项目亮点难点、相关面试题和参考回答。
 ```
 
 ### 分阶段用法
@@ -65,7 +65,7 @@ summary-interview-skill/
 ```
 
 ```text
-请使用 interview-questions skill，基于已有项目文档生成相关面试题示例和追问问题。
+请使用 interview-questions skill，基于已有项目文档生成相关面试题、追问问题和参考回答。
 ```
 
 ## 输出目录
@@ -81,7 +81,7 @@ summary-interview-skill/
 
 1. 先执行 `summary-interview` 或 `init`，沉淀项目架构与技术栈。
 2. 再执行 `project-insights`，提炼项目经验、亮点和难点。
-3. 最后执行 `interview-questions`，生成面试题、追问方向和回答提示。
+3. 最后执行 `interview-questions`，生成面试题、追问方向和参考回答。
 
 ## 文档说明
 
@@ -100,9 +100,9 @@ summary-interview-skill/
 
 ### `docs/interview-questions/`
 
-- `README.md`：题目来源和使用方式。
-- `frontend-interview-questions.md`：项目相关面试题示例。
-- `follow-up-questions.md`：追问问题和回答提示。
+- `README.md`：题目来源、使用方式和回答要求。
+- `frontend-interview-questions.md`：项目相关面试题与参考回答。
+- `follow-up-questions.md`：追问问题与参考回答。
 
 ## 注意事项
 

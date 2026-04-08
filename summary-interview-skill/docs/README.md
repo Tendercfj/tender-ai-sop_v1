@@ -1,6 +1,6 @@
 # docs 总览
 
-`docs/` 用于统一存放 `summary-interview-skill` 的全部产出文档，按照“项目架构分析 -> 项目经验提炼 -> 面试题生成”的顺序组织。
+`docs/` 用于统一存放 `summary-interview-skill` 的全部产出文档，按照“项目架构分析 -> 项目经验提炼 -> 面试题与参考回答生成”的顺序组织。
 
 对应的最外层调用入口见 `../skill.md`，整体说明见 `../README.md`。
 
@@ -8,7 +8,7 @@
 
 - `project-architecture/`：第一阶段产出，聚焦技术栈、目录结构和工程化配置。
 - `project-insights/`：第二阶段产出，聚焦项目亮点、难点、经验沉淀和面试表达素材。
-- `interview-questions/`：第三阶段产出，聚焦项目相关面试题、追问问题和回答提示。
+- `interview-questions/`：第三阶段产出，聚焦项目相关面试题、追问问题和参考回答。
 
 ## 推荐阅读顺序
 

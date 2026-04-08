@@ -8,12 +8,12 @@
 
 1. `init`：扫描前端项目架构，沉淀技术栈、目录结构和工程化分析。
 2. `project-insights`：基于架构文档提炼项目经验、亮点、难点和面试表达素材。
-3. `interview-questions`：基于前两阶段文档生成项目相关面试题、追问问题和回答提示。
+3. `interview-questions`：基于前两阶段文档生成项目相关面试题、追问问题和参考回答。
 
 ## 推荐调用方式
 
 ```text
-请使用 summary-interview skill，完整分析当前前端项目，并在 docs 下输出项目架构、项目亮点难点和面试题。
+请使用 summary-interview skill，完整分析当前前端项目，并在 docs 下输出项目架构、项目亮点难点、面试题和参考回答。
 ```
 
 ## 分阶段调用方式
@@ -29,7 +29,7 @@
 ```
 
 ```text
-请使用 interview-questions skill，基于已有项目文档生成相关面试题示例和追问问题。
+请使用 interview-questions skill，基于已有项目文档生成相关面试题、追问问题和参考回答。
 ```
 
 ## 输出位置
